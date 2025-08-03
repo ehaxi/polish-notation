@@ -1,6 +1,6 @@
 CC := gcc
 CFLAGS := -std=c11 -Wall -Werror -Wextra -fsanitize=leak -lm
-BUILD_DIR := build
+BUILD_DIR := ../build
 TARGET := graph
 TARGET_PATH := $(BUILD_DIR)/$(TARGET)
 SRCS := parse.c stack.c calc.c draw.c graph.c

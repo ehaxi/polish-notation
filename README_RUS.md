@@ -30,15 +30,17 @@
 - Клонируйте репозиторий:  
   ```bash
   git clone git@github.com:ehaxi/polish-notation.git
-  cd polish-notation
+  cd polish-notation/src
   ```
 - Скомпилируйте программу:
   ```bash
-  make src/graph
+  make
   ```
 - Запустите программу:
   ```bash
-  ./build/graph
+  cd ..
+  cd build
+  ./graph
   ```
 
 ## 🔧 Структура проекта

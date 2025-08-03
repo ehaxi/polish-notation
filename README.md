@@ -30,15 +30,17 @@ A terminal-based application that parses mathematical expressions, converts them
 - Clone the repository:
   ```bash
   git clone git@github.com:ehaxi/polish-notation.git
-  cd polish-notation
+  cd polish-notation/src
   ```
 - Compile the program:
   ```bash
-  make src/graph
+  make
   ```
-- Run the game:
+- Run the program:
   ```bash
-  ./build/game_of_life
+  cd ..
+  cd build
+  ./graph
   ```
 
 ## 🔧 Project Structure
